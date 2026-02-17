@@ -89,20 +89,15 @@ CRUD-Operations/
 - Redux Toolkit
 - TypeScript
 - Axios
-- Vite/Webpack
+- Vite
 
 ### Backend
 - Java
 - Spring Boot
 - Hibernate ORM
-- JWT & OAuth for authentication
 
 ### Database
-- MySQL or any relational database
-
-### Testing
-- JUnit (backend)
-- Jest (frontend)
+- MySQL
 
 ---
 
@@ -122,16 +117,6 @@ cd CRUD-Operations
 ```bash
 cd backend
 ./mvnw install
-```
-
-Configure `application.properties` for your database and JWT settings. Example:
-
-```
-spring.datasource.url=jdbc:mysql://localhost:3306/crud_db
-spring.datasource.username=root
-spring.datasource.password=your_password
-jwt.secret=your_jwt_secret
-server.port=8080
 ```
 
 Start backend server:
@@ -232,18 +217,7 @@ npm run start
 - Predictable frontend state with Redux
 - Clear separation of concerns (controllers/services/repositories)
 - Type-safe development across frontend and backend
-- Easy integration with external services
 - Secure authentication and authorization by default
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository  
-2. Create a feature branch  
-3. Commit your changes with descriptive messages  
-4. Push your branch  
-5. Open a Pull Request  
 
 ---
 
